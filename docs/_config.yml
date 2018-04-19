@@ -22,11 +22,7 @@ google-analytics-tracking_id  :  "XX-XXXXXXXX-X"
 
 # Where things are from Jekyll
 # ----------------------------
-includes_dir  : /_includes
-layouts_dir   : /_layouts
-
-# Theme
-remote_theme: drdynscript/syllabus-theme-content
+remote_theme: gdmgent-1819/syllabus-theme-content
 
 # Build settings
 # --------------
@@ -40,9 +36,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
-sass:
-  sass_dir: /_sass
-  style: compressed
 exclude:
   - Gemfile
   - LICENSE
