@@ -1,0 +1,55 @@
+# Site settings
+# -------------
+baseurl: /syllabi-content # the subpath of your site, e.g. /blog
+host   : 127.0.0.1
+port   : 4203
+
+# Course
+# ------
+
+# SEO
+# ---
+domain     : Artevelde University College Ghent
+subdomain  : Bachelor of Graphical and Digital Media
+title      : New Media Design III
+description: Syllabus voor het opleidingsonderdeel New Media Design III
+author     : Bachelor of Graphical and Digital Media | Artevelde University College Ghent
+copyright  : Copyright (c) 2010-2018 Artevelde University College Ghent. All Rights Reserved.
+
+# Google Services
+# ---------------
+google-analytics-tracking_id  :  "XX-XXXXXXXX-X"
+
+# Where things are from Jekyll
+# ----------------------------
+includes_dir  : /_includes
+layouts_dir   : /_layouts
+
+# Theme
+theme: minima
+
+# Build settings
+# --------------
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+sass:
+  sass_dir: /_sass
+  style: compressed
+exclude:
+  - Gemfile
+  - LICENSE
+  - README.md
+
+# Collections
+# -----------
+
+
+# Defaults
+# --------
