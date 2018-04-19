@@ -26,7 +26,7 @@ includes_dir  : /_includes
 layouts_dir   : /_layouts
 
 # Theme
-theme: minima
+remote_theme: drdynscript/syllabus-theme-content
 
 # Build settings
 # --------------
@@ -36,6 +36,7 @@ plugins:
   - jekyll-mentions
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
